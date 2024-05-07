@@ -142,6 +142,10 @@ body {
 }
 
 /* CUSTOM CLASSES */
+.fw_800{
+    font-weight: 800 !important;
+}
+
 .transition_3s {
     transition: all 0.3s ease-in-out;
 }

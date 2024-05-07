@@ -5,6 +5,34 @@
 .section_side_margin {
     margin: 30px;
 }
+
+/* ============= FAQS CSS =========== */
+.faqs_paragraph {
+    max-width: 558px;
+    padding-bottom: 60px;
+}
+.accordion-item {
+    border: 1px solid #0000001a !important;
+    background-color: var(--light-gray) !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    box-shadow: unset !important;
+    padding-bottom: 18px !important;
+}
+.accordion-button {
+    padding: 24px !important;
+    align-items: baseline !important;
+}
+
+.accordion-body {
+    padding: 10px 70px 24px 70px !important;
+}
+.accordion-button:focus {
+    outline: none !important;
+    box-shadow: unset !important;
+}
+
 /* ============= FOOTER CSS =========== */
 
 .footer_spacing {
@@ -74,6 +102,17 @@
     .section_bg_br {
         border-radius: 16px;
     }
+    /* ============= FAQS CSS =========== */
+    .faqs_paragraph {
+        padding-bottom: 50px;
+    }
+    .accordion-button {
+        padding: 18px  !important;
+        font-size: 18px !important;
+    }
+    .accordion-body {
+        padding: 0px 18px 24px 56px !important;
+    }
     /* ============== FOOTER CSS ============== */
 
     .footer_spacing {
@@ -88,8 +127,13 @@
     }
 }
 @media (max-width: 575.98px) {
+    /* ============= FAQS CSS =========== */
+    .faqs_paragraph {
+        max-width: 290px;
+    }
 }
 @media (max-width: 374.98px) {
+    /* ============ COMMON CSS ============ */
     .section_bg_br {
         margin: 10px;
     }

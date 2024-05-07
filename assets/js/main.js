@@ -5,3 +5,4 @@ function getCurrentYear() {
 }
 // Update the content of the span element with the current year
 document.getElementById("currentYear").innerText = getCurrentYear();
+
