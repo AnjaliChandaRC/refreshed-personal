@@ -1,1 +1,177 @@
-/* text */
+/* ============ COMMON CSS =========== */
+.section_bg_br {
+    border-radius: 20px;
+}
+.section_side_margin {
+    margin: 30px;
+}
+
+/* ============= HERE SECTION CSS =========== */
+.help_box {
+    box-shadow: 0px 1px 10px 0px #0000001a;
+    max-width: 267px;
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+    padding: 20px 16px;
+}
+.help_box div:first-child {
+    background: #e2f1f4;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+.help_box_two {
+    margin-top: 100px;
+    padding-right: 0;
+}
+.help_box_two p{
+    padding-bottom: 10px;
+}
+/* ============= FAQS CSS =========== */
+.faqs_paragraph {
+    max-width: 558px;
+    padding-bottom: 60px;
+}
+.accordion-item {
+    border: 1px solid #0000001a !important;
+    background-color: var(--light-gray) !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    box-shadow: unset !important;
+    padding-bottom: 18px !important;
+}
+.accordion-button {
+    padding: 24px !important;
+    align-items: baseline !important;
+}
+
+.accordion-body {
+    padding: 10px 70px 24px 70px !important;
+}
+.accordion-button:focus {
+    outline: none !important;
+    box-shadow: unset !important;
+}
+
+/* ============= FOOTER CSS =========== */
+
+.footer_spacing {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.footer_link_spacing {
+    padding: 10px;
+    gap: 10px;
+}
+.input_box {
+    border: 1px solid #ffffff1a;
+    border-radius: 150px;
+}
+.terms_input_box {
+    max-width: 336px;
+    width: 100%;
+}
+.input_box input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 16px 0px 16px 20px;
+    width: 170px;
+}
+.input_box input::placeholder {
+    font-size: var(--font-sm);
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+}
+.footer_link_spacing a:hover {
+    color: var(--green) !important;
+}
+.footer_border_b {
+    border-bottom: 1px solid #ffffff50;
+}
+.copyright_spacing {
+    padding: 20px 0;
+}
+@media (min-width: 768px) {
+    .w_md_50 {
+        width: 50%;
+    }
+}
+@media (min-width: 375px) {
+    .d_xs_none {
+        display: none !important;
+    }
+}
+@media (max-width: 1198.98px) {
+    /* ============ FOOTER CSS ============= */
+    .terms_input_box {
+        max-width: 310px;
+    }
+}
+@media (max-width: 991.98px) {
+    /* ============ FOOTER CSS ============= */
+    .terms_input_box {
+        max-width: 318px;
+    }
+}
+@media (max-width: 767.98px) {
+    /* ============ COMMON CSS ============ */
+    .section_side_margin {
+        margin: 16px;
+    }
+    .section_bg_br {
+        border-radius: 16px;
+    }
+    /* ============= FAQS CSS =========== */
+    .faqs_paragraph {
+        padding-bottom: 50px;
+    }
+    .accordion-button {
+        padding: 18px !important;
+        font-size: 18px !important;
+    }
+    .accordion-body {
+        padding: 0px 18px 24px 56px !important;
+    }
+    /* ============== FOOTER CSS ============== */
+
+    .footer_spacing {
+        padding-top: 42px;
+        padding-bottom: 76px;
+    }
+    .footer_link_spacing {
+        gap: 8px;
+    }
+    .copyright_spacing {
+        padding: 16px 0;
+    }
+}
+@media (max-width: 575.98px) {
+    /* ============= FAQS CSS =========== */
+    .faqs_paragraph {
+        max-width: 290px;
+    }
+}
+@media (max-width: 374.98px) {
+    /* ============ COMMON CSS ============ */
+    .section_bg_br {
+        margin: 10px;
+    }
+    /* ============== FOOTER CSS ============== */
+    .footer_spacing {
+        padding-top: 36px;
+        padding-bottom: 50px;
+    }
+    .footer_link_spacing {
+        padding: 0;
+    }
+    .input_box button {
+        display: none;
+    }
+    .input_box input {
+        padding: 12.5px 16px;
+        width: 100%;
+    }
+}
