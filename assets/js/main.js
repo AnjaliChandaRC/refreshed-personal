@@ -1,11 +1,3 @@
-// ================ YEAR FUNCTION
-// JavaScript function to get current year
-function getCurrentYear() {
-  return new Date().getFullYear();
-}
-// Update the content of the span element with the current year
-document.getElementById("currentYear").innerText = getCurrentYear();
-
 // ===================== AUTHOR SLIDER JS
 $(".author_slider").slick({
   arrows: false,
@@ -40,11 +32,8 @@ $(".author_slider").slick({
   ],
 });
 
-
-
-
-
-
-
-
-
+// ================ YEAR FUNCTION
+function getCurrentYear() {
+  return new Date().getFullYear();
+}
+document.getElementById("currentYear").innerText = getCurrentYear();
