@@ -127,6 +127,8 @@
 .copyright_spacing {
     padding: 20px 0;
 }
+
+
 @media (min-width: 768px) {
     .w_md_50 {
         width: 50%;
