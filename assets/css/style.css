@@ -6,6 +6,28 @@
     margin: 30px;
 }
 
+/* ============= HERE SECTION CSS =========== */
+.help_box {
+    box-shadow: 0px 1px 10px 0px #0000001a;
+    max-width: 267px;
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+    padding: 20px 16px;
+}
+.help_box div:first-child {
+    background: #e2f1f4;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+.help_box_two {
+    margin-top: 100px;
+    padding-right: 0;
+}
+.help_box_two p{
+    padding-bottom: 10px;
+}
 /* ============= FAQS CSS =========== */
 .faqs_paragraph {
     max-width: 558px;
@@ -107,7 +129,7 @@
         padding-bottom: 50px;
     }
     .accordion-button {
-        padding: 18px  !important;
+        padding: 18px !important;
         font-size: 18px !important;
     }
     .accordion-body {
