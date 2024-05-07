@@ -6,7 +6,37 @@
     margin: 30px;
 }
 
+/* ============= IMPACT SECTION CSS =========== */
+.impact_center_p_spacing {
+    padding: 10px 0;
+}
+.impact_iphone_img {
+    max-width: 424px;
+    margin-top: 40px;
+}
+.impact_earth_img {
+    width: 126px;
+    height: 126px;
+    bottom: 8%;
+    left: 0;
+}
+.warranty_box {
+    top: 27%;
+    right: 0;
+    padding: 10px 20px;
+    border-radius: 150px;
+}
+/* ============= GOT A SEC CSS =========== */
+.got_a_paragraph {
+    max-width: 640px;
+}
+.got_box {
+    padding: 60px;
+}
 /* ============= HERE SECTION CSS =========== */
+.custom_spacing_here {
+    padding-top: 150px;
+}
 .help_box {
     box-shadow: 0px 1px 10px 0px #0000001a;
     max-width: 267px;
@@ -25,7 +55,7 @@
     margin-top: 100px;
     padding-right: 0;
 }
-.help_box_two p{
+.help_box_two p {
     padding-bottom: 10px;
 }
 /* ============= FAQS CSS =========== */
@@ -54,7 +84,10 @@
     outline: none !important;
     box-shadow: unset !important;
 }
-
+.faqs_spacing {
+    padding-bottom: 119px;
+    padding-top: 151px;
+}
 /* ============= FOOTER CSS =========== */
 
 .footer_spacing {
@@ -105,26 +138,61 @@
     }
 }
 @media (max-width: 1198.98px) {
-    /* ============ FOOTER CSS ============= */
+    .impact_earth_img {
+        left: -30px;
+        width: 100px;
+        height: 100px;
+    }
     .terms_input_box {
         max-width: 310px;
     }
 }
 @media (max-width: 991.98px) {
-    /* ============ FOOTER CSS ============= */
     .terms_input_box {
         max-width: 318px;
     }
 }
 @media (max-width: 767.98px) {
-    /* ============ COMMON CSS ============ */
+    .warranty_box {
+        top: 61%;
+        right: unset;
+        left: -8px;
+    }
+    .impact_earth_img {
+        left: unset;
+        right: -5px;
+        bottom: 25%;
+        width: 126px;
+        height: 126px;
+    }
+    .impact_heading {
+        padding-top: 40px;
+    }
+    .impact_iphone_img {
+        margin-top: 50px;
+    }
+    .got_box {
+        padding: 50px 12px;
+    }
+    .custom_spacing_here {
+        padding-top: 137px;
+    }
+    .here_full_box {
+        margin: 67px 12px 0 12px;
+    }
+    .here_full_box .help_box_two {
+        margin-top: 70px;
+    }
     .section_side_margin {
         margin: 16px;
     }
     .section_bg_br {
         border-radius: 16px;
     }
-    /* ============= FAQS CSS =========== */
+    .help_box {
+        max-width: unset;
+        margin: 0 auto;
+    }
     .faqs_paragraph {
         padding-bottom: 50px;
     }
@@ -135,7 +203,6 @@
     .accordion-body {
         padding: 0px 18px 24px 56px !important;
     }
-    /* ============== FOOTER CSS ============== */
 
     .footer_spacing {
         padding-top: 42px;
@@ -149,17 +216,29 @@
     }
 }
 @media (max-width: 575.98px) {
-    /* ============= FAQS CSS =========== */
+    .here_full_box .help_box_two {
+        margin-top: 0px;
+    }
+    .help_box_two {
+        margin-top: 0px;
+    }
     .faqs_paragraph {
         max-width: 290px;
     }
+    .faqs_spacing {
+        padding-bottom: 104px;
+        padding-top: 120px;
+    }
 }
 @media (max-width: 374.98px) {
-    /* ============ COMMON CSS ============ */
+    .impact_earth_img {
+        bottom: 14%;
+        width: 100px;
+        height: 100px;
+    }
     .section_bg_br {
         margin: 10px;
     }
-    /* ============== FOOTER CSS ============== */
     .footer_spacing {
         padding-top: 36px;
         padding-bottom: 50px;

@@ -39,6 +39,7 @@ p {
 
 /* root  */
 :root {
+    --font-xs: 14px;
     --font-sm: 16px;
     --font-md: 20px;
     --font-lg: 32px;
@@ -118,6 +119,9 @@ p {
 }
 
 /* font size  */
+.font_xs {
+    font-size: var(--font-xs) !important;
+}
 .font_sm {
     font-size: var(--font-sm) !important;
 }
@@ -219,8 +223,6 @@ p {
     }
 }
 
-
-
 .slider_parent_bg {
     background-color: var(--gray);
 }
@@ -244,7 +246,7 @@ p {
 .author_slider .slick-dots li {
     width: 10px !important;
 }
-@media (max-width:1199.98px) {
+@media (max-width: 1199.98px) {
     .slider_parent_bg {
         background-color: unset;
     }
@@ -252,12 +254,12 @@ p {
         min-height: 260px !important;
     }
 }
-@media (max-width:767.98px) {
+@media (max-width: 767.98px) {
     .author_slider_card {
         min-height: 300px !important;
     }
 }
-@media (max-width:575.98px) {
+@media (max-width: 575.98px) {
     .author_slider_card {
         min-height: 270px !important;
     }
